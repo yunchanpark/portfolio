@@ -1,6 +1,3 @@
-import GitHubMerge from '@/assets/icons/GitHubMerge';
-import GitHubOpen from '@/assets/icons/GitHubOpen';
-import Comment from '@/assets/icons/Comment';
 import React from 'react';
 
 type Contents = {
