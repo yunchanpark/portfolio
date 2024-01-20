@@ -426,6 +426,6 @@ export const profileData: WorkSpaceType = {
             ],
         },
     ],
-} as const;
+};
 
 export const NAV_MENU = profileData.workspace.map(({ id }) => id);
