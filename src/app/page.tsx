@@ -4,7 +4,7 @@ import { profileData } from '../constants/profile';
 
 export default function Home() {
     return (
-        <main className="scroll-smooth bg-slate-900 lg:flex lg:justify-between lg:px-24 gap-4 relative">
+        <main className="scroll-smooth bg-slate-900 lg:flex lg:justify-between lg:px-24 gap-4 relative text-white">
             <MouseEffectContainer />
             {ViewGenerator(profileData)}
         </main>
