@@ -12,7 +12,7 @@ import OpenSource from './OpenSource';
 export default function ViewGenerator({ header, workspace }: WorkSpaceType) {
     return (
         <>
-            <Header socialMediaButtons={header.socialMediaButtons} />
+            <Header {...header} />
             <div className="lg:w-2/3 pb-24 max-lg:px-10">
                 {workspace.map(({ id, section }) => {
                     return (

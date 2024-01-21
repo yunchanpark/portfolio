@@ -10,9 +10,10 @@ type ListItem = {
 
 export type ListContentProps = {
     data: ListItem[];
+    styleType?: 'DOT' | 'NUMBER';
 };
 
-export default function ListContent({ data }: ListContentProps) {
+export default function ListContent({ data, styleType = 'NUMBER' }: ListContentProps) {
     return (
         <>
             {data.map((listItem) => (
@@ -21,7 +22,11 @@ export default function ListContent({ data }: ListContentProps) {
                     <ul className="flex-1">
                         {listItem.list.map((item, index) => (
                             <li key={item.contents} className="pb-4">
-                                <p className="font-semibold leading-loose">{`${index + 1}. ${item.contents}`}</p>
+                                {styleType === 'NUMBER' ? (
+                                    <p className="font-semibold leading-loose">{`${index + 1}. ${item.contents}`}</p>
+                                ) : (
+                                    <p className="font-semibold leading-loose">{`● ${item.contents}`}</p>
+                                )}
                                 <ul className="max-w-lg ml-4">
                                     {item.children?.map((text) => (
                                         <li key={text} className="flex flex-row gap-2 text-base text-slate-400  leading-normal">

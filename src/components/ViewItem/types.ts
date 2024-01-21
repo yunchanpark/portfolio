@@ -64,6 +64,7 @@ type SocialMediaButton = {
 
 export type WorkSpaceType = {
     header: {
+        email: string;
         socialMediaButtons: SocialMediaButton[];
     };
     workspace: {

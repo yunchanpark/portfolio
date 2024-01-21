@@ -13,6 +13,7 @@ export const profileData: WorkSpaceType = {
                 href: 'https://www.linkedin.com/in/yunchan/',
             },
         ],
+        email: 'yongp98@naver.com',
     },
 
     // 본문
@@ -29,7 +30,10 @@ export const profileData: WorkSpaceType = {
                 {
                     type: 'TEXT',
                     value: {
-                        text: '프론트엔드 개발자를 희망하는 1년차 풀스택 개발자입니다.',
+                        text:
+                            '프론트엔드 개발자를 희망하는 1년차 풀스택 개발자입니다.\n\n' +
+                            '"항상 목표를 가지고 살자"라는 모토를 가지고 살아가고 있습니다.\n' +
+                            '"매일아침에 이불개기", "정보처리기사 취득하기", "개발자로 취업하기", "나만의 앱 만들기" 등 크고 작은 목표들을 성취하는 습관을 만들어가고 있습니다.',
                     },
                 },
             ],
@@ -138,6 +142,10 @@ export const profileData: WorkSpaceType = {
                         text: '크롤 - CRAWL',
                         links: [
                             {
+                                icon: 'github',
+                                href: 'https://github.com/orgs/ReptalieRegion/repositories',
+                            },
+                            {
                                 icon: 'home',
                                 href: 'https://crawl-lab.shop/',
                             },
@@ -238,7 +246,7 @@ export const profileData: WorkSpaceType = {
                                     {
                                         contents: '모노레포 환경 구성',
                                         children: [
-                                            'yarn workspace, eslint, prettier, husky, lintstaged를 활용하여 모노레포 환경 구성',
+                                            'yarn workspace, eslint, prettier, husky, lintstaged를 활용하여 모노레포 환경을 구성했습니다.',
                                         ],
                                     },
                                 ],
@@ -279,6 +287,16 @@ export const profileData: WorkSpaceType = {
                     type: 'UNDERSCORE',
                     value: {
                         text: '내 웃음 돌리도',
+                        links: [
+                            {
+                                icon: 'github',
+                                href: 'https://github.com/dollido',
+                            },
+                            {
+                                icon: 'notion',
+                                href: 'https://study-jungle.notion.site/Dollido-a4a577dc236846bdbb19acad16f5f7cb',
+                            },
+                        ],
                     },
                 },
                 {
@@ -368,6 +386,74 @@ export const profileData: WorkSpaceType = {
                                     },
                                     {
                                         contents: '로그인 및 회원가입 (JWT + PBKDF2) API 구현',
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                },
+            ],
+        },
+
+        // 스킬
+        {
+            id: 'Skills',
+            section: [
+                {
+                    type: 'TITLE',
+                    value: {
+                        text: 'Skills',
+                    },
+                },
+                {
+                    type: 'LIST_CONTENT',
+                    value: {
+                        styleType: 'DOT',
+                        data: [
+                            {
+                                title: 'FrontEnd',
+                                list: [
+                                    {
+                                        contents: 'HTML5, CSS3, Javascript, TypeScript',
+                                    },
+                                    {
+                                        contents: 'React, NextJS',
+                                    },
+                                    {
+                                        contents: 'React Query, Zustand',
+                                    },
+                                ],
+                            },
+                            {
+                                title: 'DevOps',
+                                list: [
+                                    {
+                                        contents: 'AWS S3, EC2, CloudFront, ELB',
+                                    },
+                                    {
+                                        contents: 'Artifact Registry, Cloud Build, Cloud Run',
+                                    },
+                                    {
+                                        contents: 'MongoDB',
+                                    },
+                                    {
+                                        contents: 'Docker',
+                                    },
+                                ],
+                            },
+                            {
+                                title: 'BackEnd',
+                                list: [
+                                    {
+                                        contents: 'NodeJS, NestJS',
+                                    },
+                                ],
+                            },
+                            {
+                                title: 'Collaboration',
+                                list: [
+                                    {
+                                        contents: 'GitHub, Git, Notion, Slack, Visual Studio Code',
                                     },
                                 ],
                             },

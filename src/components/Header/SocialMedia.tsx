@@ -7,6 +7,7 @@ export type SocialMediaProps = {
         type: 'GitHub' | 'LinkedIn';
         href: string;
     }[];
+    email?: string;
 };
 
 export default function SocialMedia({ socialMediaButtons }: SocialMediaProps) {
