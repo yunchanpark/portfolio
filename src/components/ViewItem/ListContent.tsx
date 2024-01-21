@@ -25,7 +25,7 @@ export default function ListContent({ data, styleType = 'NUMBER' }: ListContentP
                                 {styleType === 'NUMBER' ? (
                                     <p className="font-semibold leading-loose">{`${index + 1}. ${item.contents}`}</p>
                                 ) : (
-                                    <p className="font-semibold leading-loose">{`● ${item.contents}`}</p>
+                                    <p className="font-semibold leading-loose text-slate-400">{`● ${item.contents}`}</p>
                                 )}
                                 <ul className="max-w-lg ml-4">
                                     {item.children?.map((text) => (
