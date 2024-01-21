@@ -4,6 +4,7 @@ import { PeriodTextProps } from './PeriodText';
 import { SkillsProps } from './Skills';
 import { SubTitleProps } from './SubTitle';
 import { TextProps } from './Text';
+import { TimelineProps } from './Timeline';
 import { TitleProps } from './Title';
 import { UnderscoreTextProps } from './UnderscoreText';
 
@@ -47,6 +48,11 @@ interface OpenSourceType {
     value: OpenSourceProps;
 }
 
+interface Timeline {
+    type: 'TIME_LINE';
+    value: TimelineProps;
+}
+
 type DataItemType =
     | TextType
     | TitleType
@@ -55,7 +61,8 @@ type DataItemType =
     | SubTitleType
     | ListContentType
     | SkillsType
-    | OpenSourceType;
+    | OpenSourceType
+    | Timeline;
 
 type SocialMediaButton = {
     type: 'GitHub' | 'LinkedIn';

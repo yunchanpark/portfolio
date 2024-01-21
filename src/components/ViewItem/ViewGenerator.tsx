@@ -8,6 +8,7 @@ import Skills from './Skills';
 import Header from '../Header';
 import { WorkSpaceType } from './types';
 import OpenSource from './OpenSource';
+import Timeline from './Timeline';
 
 export default function ViewGenerator({ header, workspace }: WorkSpaceType) {
     return (
@@ -35,6 +36,8 @@ export default function ViewGenerator({ header, workspace }: WorkSpaceType) {
                                         return <Skills key={item.type} {...item.value} />;
                                     case 'OPEN_SOURCE':
                                         return <OpenSource key={item.type} {...item.value} />;
+                                    case 'TIME_LINE':
+                                        return <Timeline key={item.type} {...item.value} />;
                                 }
                             })}
                         </section>

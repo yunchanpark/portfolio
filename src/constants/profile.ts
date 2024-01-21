@@ -25,6 +25,7 @@ export const profileData: WorkSpaceType = {
                     type: 'TITLE',
                     value: {
                         text: 'About Me',
+                        description: '저를 소개할게요',
                     },
                 },
                 {
@@ -47,6 +48,7 @@ export const profileData: WorkSpaceType = {
                     type: 'TITLE',
                     value: {
                         text: 'Work Experience',
+                        description: '현재까지 했던 일을 소개할게요',
                     },
                 },
                 {
@@ -133,6 +135,7 @@ export const profileData: WorkSpaceType = {
                     type: 'TITLE',
                     value: {
                         text: 'Projects',
+                        description: '현재까지 했던 프로젝트를 소개할게요',
                     },
                 },
                 // 크롤
@@ -403,6 +406,7 @@ export const profileData: WorkSpaceType = {
                     type: 'TITLE',
                     value: {
                         text: 'Skills',
+                        description: '제가 사용할 수 있는 기술를 소개할게요',
                     },
                 },
                 {
@@ -471,6 +475,7 @@ export const profileData: WorkSpaceType = {
                     type: 'TITLE',
                     value: {
                         text: 'Open Sources',
+                        description: '제가 기여한 오픈소스를 소개할게요',
                     },
                 },
                 {
@@ -505,6 +510,52 @@ export const profileData: WorkSpaceType = {
                                         text: '간단한 오타 수정',
                                     },
                                 ],
+                            },
+                        ],
+                    },
+                },
+            ],
+        },
+
+        // 교육
+        {
+            id: 'Education',
+            section: [
+                {
+                    type: 'TITLE',
+                    value: {
+                        text: 'Education',
+                        description: '제가 받았던 교육을 소개할게요',
+                    },
+                },
+                {
+                    type: 'TIME_LINE',
+                    value: {
+                        data: [
+                            {
+                                title: 'SW 사관학교 정글',
+                                period: '2022.03 ~ 2022.08 (5개월)',
+                                list: ['자료구조 (RB Tree, Malloc Lab, Proxy Web)', '알고리즘', 'Pintos', '실전 프로젝트'],
+                            },
+                            {
+                                title: '코리아 IT 아카데미',
+                                period: '2021.08 ~ 2022.01 (5개월)',
+                                list: [
+                                    'Java 프로그래밍',
+                                    '웹 프론트',
+                                    ' RDBMS, JDBC',
+                                    ' JSP기반 웹 프로그래밍',
+                                    ' Spring 프로젝트',
+                                ],
+                            },
+                            {
+                                title: '정보처리기사 자격증 취득',
+                                period: '2021.06',
+                            },
+                            {
+                                title: '서원대학교',
+                                period: '2016.02 ~ 2022.02',
+                                list: ['정보보안학과 전공', '학점 3.40 /4.5'],
                             },
                         ],
                     },
