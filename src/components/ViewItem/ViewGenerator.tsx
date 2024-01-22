@@ -11,7 +11,7 @@ import { profileData } from '@/constants/profile';
 
 export default function ViewGenerator() {
     return (
-        <div className="lg:w-2/3 pb-24 max-lg:px-10">
+        <div className="lg:w-3/4 pb-24 max-lg:px-10">
             {profileData.workspace.map(({ id, section }) => {
                 return (
                     <section key={id} id={id} className="pt-24" aria-label={id}>
