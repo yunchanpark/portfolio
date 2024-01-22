@@ -145,16 +145,16 @@ export const profileData: WorkSpaceType = {
                         text: '크롤 - CRAWL',
                         links: [
                             {
-                                icon: 'github',
-                                href: 'https://github.com/orgs/ReptalieRegion/repositories',
-                            },
-                            {
                                 icon: 'home',
                                 href: 'https://crawl-lab.shop/',
                             },
                             {
                                 icon: 'apple',
                                 href: 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%A4/id6469619957',
+                            },
+                            {
+                                icon: 'github',
+                                href: 'https://github.com/orgs/ReptalieRegion/repositories',
                             },
                         ],
                     },
