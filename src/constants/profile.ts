@@ -227,13 +227,14 @@ export const profileData: WorkSpaceType = {
                                         contents: '자주 변경되는 페이지는 Webview로 구성',
                                         children: [
                                             '이용약관, 개인정보 처리방침, 홈페이지와 같이 자주 변경되는 페이지들은 Webview로 구성했습니다.',
+                                            '웹 페이지는 NextJS로 구현했습니다.',
                                         ],
                                     },
                                     {
                                         contents: 'Notifee와 Firebase Messaging을 활용한 Push 알림 구현',
                                         children: [
                                             '유저의 리마인드를 위해 Push 알림을 도입했습니다.',
-                                            'Notifee와 Firebase Messaging를 활용하여 푸시알림을 구현했습니다',
+                                            'Notifee와 Firebase Messaging를 활용하여 푸시알림을 구현했습니다.',
                                         ],
                                     },
                                     {
