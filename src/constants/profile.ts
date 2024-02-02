@@ -156,6 +156,10 @@ export const profileData: WorkSpaceType = {
                                 icon: 'github',
                                 href: 'https://github.com/orgs/ReptalieRegion/repositories',
                             },
+                            {
+                                icon: 'notion',
+                                href: 'https://study-jungle.notion.site/CRAWL-0a7e6acf8d564a588306fb8897961b72?pvs=4',
+                            },
                         ],
                     },
                 },
@@ -240,12 +244,6 @@ export const profileData: WorkSpaceType = {
                                     {
                                         contents: 'Fastlane을 활용한 배포 자동화 파이프라인 구축',
                                         children: ['Fastlane을 활용하여 App Store Testflight에 자동 배포 환경을 구축했습니다.'],
-                                    },
-                                    {
-                                        contents: 'MSW를 활용한 Mocking하는 환경 구성',
-                                        children: [
-                                            'BackEnd에 의존하지 않고 개발을 하기 위해 MSW를 도입하여 API 스펙 협의 후 바로 개발할 수 있는 환경을 구성했습니다.',
-                                        ],
                                     },
                                     {
                                         contents: '모노레포 환경 구성',
